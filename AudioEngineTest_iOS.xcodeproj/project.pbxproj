@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE8AB25E2BEC25B900DF43F0 /* SoxTest_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AB25D2BEC25B900DF43F0 /* SoxTest_iOSApp.swift */; };
+		CE8AB25E2BEC25B900DF43F0 /* AudioEngineTest_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AB25D2BEC25B900DF43F0 /* AudioEngineTest_iOSApp.swift */; };
 		CE8AB2602BEC25B900DF43F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AB25F2BEC25B900DF43F0 /* ContentView.swift */; };
 		CE8AB2622BEC25BB00DF43F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8AB2612BEC25BB00DF43F0 /* Assets.xcassets */; };
 		CE8AB2652BEC25BB00DF43F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8AB2642BEC25BB00DF43F0 /* Preview Assets.xcassets */; };
-		CE8AB26F2BEC25BB00DF43F0 /* SoxTest_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AB26E2BEC25BB00DF43F0 /* SoxTest_iOSTests.swift */; };
-		CE8AB2792BEC25BB00DF43F0 /* SoxTest_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AB2782BEC25BB00DF43F0 /* SoxTest_iOSUITests.swift */; };
-		CE8AB27B2BEC25BB00DF43F0 /* SoxTest_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AB27A2BEC25BB00DF43F0 /* SoxTest_iOSUITestsLaunchTests.swift */; };
+		CE8AB26F2BEC25BB00DF43F0 /* AudioEngineTest_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AB26E2BEC25BB00DF43F0 /* AudioEngineTest_iOSTests.swift */; };
+		CE8AB2792BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AB2782BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests.swift */; };
+		CE8AB27B2BEC25BB00DF43F0 /* AudioEngineTest_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8AB27A2BEC25BB00DF43F0 /* AudioEngineTest_iOSUITestsLaunchTests.swift */; };
+		CE8AB2892BEC265E00DF43F0 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE8AB2882BEC265E00DF43F0 /* MediaPlayer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE8AB25A2BEC25B900DF43F0 /* SoxTest_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoxTest_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE8AB25D2BEC25B900DF43F0 /* SoxTest_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoxTest_iOSApp.swift; sourceTree = "<group>"; };
+		CE8AB25A2BEC25B900DF43F0 /* AudioEngineTest_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioEngineTest_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8AB25D2BEC25B900DF43F0 /* AudioEngineTest_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngineTest_iOSApp.swift; sourceTree = "<group>"; };
 		CE8AB25F2BEC25B900DF43F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CE8AB2612BEC25BB00DF43F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE8AB2642BEC25BB00DF43F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CE8AB26A2BEC25BB00DF43F0 /* SoxTest_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoxTest_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE8AB26E2BEC25BB00DF43F0 /* SoxTest_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoxTest_iOSTests.swift; sourceTree = "<group>"; };
-		CE8AB2742BEC25BB00DF43F0 /* SoxTest_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoxTest_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE8AB2782BEC25BB00DF43F0 /* SoxTest_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoxTest_iOSUITests.swift; sourceTree = "<group>"; };
-		CE8AB27A2BEC25BB00DF43F0 /* SoxTest_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoxTest_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE8AB26A2BEC25BB00DF43F0 /* AudioEngineTest_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioEngineTest_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8AB26E2BEC25BB00DF43F0 /* AudioEngineTest_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngineTest_iOSTests.swift; sourceTree = "<group>"; };
+		CE8AB2742BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioEngineTest_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8AB2782BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngineTest_iOSUITests.swift; sourceTree = "<group>"; };
+		CE8AB27A2BEC25BB00DF43F0 /* AudioEngineTest_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioEngineTest_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE8AB2882BEC265E00DF43F0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CE8AB28A2BEC292200DF43F0 /* StoreKitTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKitTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/StoreKitTest.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8AB2892BEC265E00DF43F0 /* MediaPlayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,32 +78,33 @@
 		CE8AB2512BEC25B900DF43F0 = {
 			isa = PBXGroup;
 			children = (
-				CE8AB25C2BEC25B900DF43F0 /* SoxTest_iOS */,
-				CE8AB26D2BEC25BB00DF43F0 /* SoxTest_iOSTests */,
-				CE8AB2772BEC25BB00DF43F0 /* SoxTest_iOSUITests */,
+				CE8AB25C2BEC25B900DF43F0 /* AudioEngineTest_iOS */,
+				CE8AB26D2BEC25BB00DF43F0 /* AudioEngineTest_iOSTests */,
+				CE8AB2772BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests */,
 				CE8AB25B2BEC25B900DF43F0 /* Products */,
+				CE8AB2872BEC265D00DF43F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		CE8AB25B2BEC25B900DF43F0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE8AB25A2BEC25B900DF43F0 /* SoxTest_iOS.app */,
-				CE8AB26A2BEC25BB00DF43F0 /* SoxTest_iOSTests.xctest */,
-				CE8AB2742BEC25BB00DF43F0 /* SoxTest_iOSUITests.xctest */,
+				CE8AB25A2BEC25B900DF43F0 /* AudioEngineTest_iOS.app */,
+				CE8AB26A2BEC25BB00DF43F0 /* AudioEngineTest_iOSTests.xctest */,
+				CE8AB2742BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CE8AB25C2BEC25B900DF43F0 /* SoxTest_iOS */ = {
+		CE8AB25C2BEC25B900DF43F0 /* AudioEngineTest_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CE8AB25D2BEC25B900DF43F0 /* SoxTest_iOSApp.swift */,
+				CE8AB25D2BEC25B900DF43F0 /* AudioEngineTest_iOSApp.swift */,
 				CE8AB25F2BEC25B900DF43F0 /* ContentView.swift */,
 				CE8AB2612BEC25BB00DF43F0 /* Assets.xcassets */,
 				CE8AB2632BEC25BB00DF43F0 /* Preview Content */,
 			);
-			path = SoxTest_iOS;
+			path = AudioEngineTest_iOS;
 			sourceTree = "<group>";
 		};
 		CE8AB2632BEC25BB00DF43F0 /* Preview Content */ = {
@@ -110,29 +115,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		CE8AB26D2BEC25BB00DF43F0 /* SoxTest_iOSTests */ = {
+		CE8AB26D2BEC25BB00DF43F0 /* AudioEngineTest_iOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE8AB26E2BEC25BB00DF43F0 /* SoxTest_iOSTests.swift */,
+				CE8AB26E2BEC25BB00DF43F0 /* AudioEngineTest_iOSTests.swift */,
 			);
-			path = SoxTest_iOSTests;
+			path = AudioEngineTest_iOSTests;
 			sourceTree = "<group>";
 		};
-		CE8AB2772BEC25BB00DF43F0 /* SoxTest_iOSUITests */ = {
+		CE8AB2772BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CE8AB2782BEC25BB00DF43F0 /* SoxTest_iOSUITests.swift */,
-				CE8AB27A2BEC25BB00DF43F0 /* SoxTest_iOSUITestsLaunchTests.swift */,
+				CE8AB2782BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests.swift */,
+				CE8AB27A2BEC25BB00DF43F0 /* AudioEngineTest_iOSUITestsLaunchTests.swift */,
 			);
-			path = SoxTest_iOSUITests;
+			path = AudioEngineTest_iOSUITests;
+			sourceTree = "<group>";
+		};
+		CE8AB2872BEC265D00DF43F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE8AB28A2BEC292200DF43F0 /* StoreKitTest.framework */,
+				CE8AB2882BEC265E00DF43F0 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CE8AB2592BEC25B900DF43F0 /* SoxTest_iOS */ = {
+		CE8AB2592BEC25B900DF43F0 /* AudioEngineTest_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE8AB27E2BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "SoxTest_iOS" */;
+			buildConfigurationList = CE8AB27E2BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "AudioEngineTest_iOS" */;
 			buildPhases = (
 				CE8AB2562BEC25B900DF43F0 /* Sources */,
 				CE8AB2572BEC25B900DF43F0 /* Frameworks */,
@@ -142,14 +156,14 @@
 			);
 			dependencies = (
 			);
-			name = SoxTest_iOS;
+			name = AudioEngineTest_iOS;
 			productName = SoxTest_iOS;
-			productReference = CE8AB25A2BEC25B900DF43F0 /* SoxTest_iOS.app */;
+			productReference = CE8AB25A2BEC25B900DF43F0 /* AudioEngineTest_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CE8AB2692BEC25BB00DF43F0 /* SoxTest_iOSTests */ = {
+		CE8AB2692BEC25BB00DF43F0 /* AudioEngineTest_iOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE8AB2812BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "SoxTest_iOSTests" */;
+			buildConfigurationList = CE8AB2812BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "AudioEngineTest_iOSTests" */;
 			buildPhases = (
 				CE8AB2662BEC25BB00DF43F0 /* Sources */,
 				CE8AB2672BEC25BB00DF43F0 /* Frameworks */,
@@ -160,14 +174,14 @@
 			dependencies = (
 				CE8AB26C2BEC25BB00DF43F0 /* PBXTargetDependency */,
 			);
-			name = SoxTest_iOSTests;
+			name = AudioEngineTest_iOSTests;
 			productName = SoxTest_iOSTests;
-			productReference = CE8AB26A2BEC25BB00DF43F0 /* SoxTest_iOSTests.xctest */;
+			productReference = CE8AB26A2BEC25BB00DF43F0 /* AudioEngineTest_iOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CE8AB2732BEC25BB00DF43F0 /* SoxTest_iOSUITests */ = {
+		CE8AB2732BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CE8AB2842BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "SoxTest_iOSUITests" */;
+			buildConfigurationList = CE8AB2842BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "AudioEngineTest_iOSUITests" */;
 			buildPhases = (
 				CE8AB2702BEC25BB00DF43F0 /* Sources */,
 				CE8AB2712BEC25BB00DF43F0 /* Frameworks */,
@@ -178,9 +192,9 @@
 			dependencies = (
 				CE8AB2762BEC25BB00DF43F0 /* PBXTargetDependency */,
 			);
-			name = SoxTest_iOSUITests;
+			name = AudioEngineTest_iOSUITests;
 			productName = SoxTest_iOSUITests;
-			productReference = CE8AB2742BEC25BB00DF43F0 /* SoxTest_iOSUITests.xctest */;
+			productReference = CE8AB2742BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CE8AB2552BEC25B900DF43F0 /* Build configuration list for PBXProject "SoxTest_iOS" */;
+			buildConfigurationList = CE8AB2552BEC25B900DF43F0 /* Build configuration list for PBXProject "AudioEngineTest_iOS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +233,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CE8AB2592BEC25B900DF43F0 /* SoxTest_iOS */,
-				CE8AB2692BEC25BB00DF43F0 /* SoxTest_iOSTests */,
-				CE8AB2732BEC25BB00DF43F0 /* SoxTest_iOSUITests */,
+				CE8AB2592BEC25B900DF43F0 /* AudioEngineTest_iOS */,
+				CE8AB2692BEC25BB00DF43F0 /* AudioEngineTest_iOSTests */,
+				CE8AB2732BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE8AB2602BEC25B900DF43F0 /* ContentView.swift in Sources */,
-				CE8AB25E2BEC25B900DF43F0 /* SoxTest_iOSApp.swift in Sources */,
+				CE8AB25E2BEC25B900DF43F0 /* AudioEngineTest_iOSApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +280,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8AB26F2BEC25BB00DF43F0 /* SoxTest_iOSTests.swift in Sources */,
+				CE8AB26F2BEC25BB00DF43F0 /* AudioEngineTest_iOSTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE8AB2792BEC25BB00DF43F0 /* SoxTest_iOSUITests.swift in Sources */,
-				CE8AB27B2BEC25BB00DF43F0 /* SoxTest_iOSUITestsLaunchTests.swift in Sources */,
+				CE8AB2792BEC25BB00DF43F0 /* AudioEngineTest_iOSUITests.swift in Sources */,
+				CE8AB27B2BEC25BB00DF43F0 /* AudioEngineTest_iOSUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +298,12 @@
 /* Begin PBXTargetDependency section */
 		CE8AB26C2BEC25BB00DF43F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE8AB2592BEC25B900DF43F0 /* SoxTest_iOS */;
+			target = CE8AB2592BEC25B900DF43F0 /* AudioEngineTest_iOS */;
 			targetProxy = CE8AB26B2BEC25BB00DF43F0 /* PBXContainerItemProxy */;
 		};
 		CE8AB2762BEC25BB00DF43F0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CE8AB2592BEC25B900DF43F0 /* SoxTest_iOS */;
+			target = CE8AB2592BEC25B900DF43F0 /* AudioEngineTest_iOS */;
 			targetProxy = CE8AB2752BEC25BB00DF43F0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,10 +435,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SoxTest_iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AudioEngineTest_iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = XJV93C8ZJ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = Music;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,10 +465,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SoxTest_iOS/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AudioEngineTest_iOS/Preview Content\"";
 				DEVELOPMENT_TEAM = XJV93C8ZJ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = Music;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -488,7 +504,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoxTest_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoxTest_iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioEngineTest_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioEngineTest_iOS";
 			};
 			name = Debug;
 		};
@@ -508,7 +524,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoxTest_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoxTest_iOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioEngineTest_iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AudioEngineTest_iOS";
 			};
 			name = Release;
 		};
@@ -551,7 +567,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CE8AB2552BEC25B900DF43F0 /* Build configuration list for PBXProject "SoxTest_iOS" */ = {
+		CE8AB2552BEC25B900DF43F0 /* Build configuration list for PBXProject "AudioEngineTest_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE8AB27C2BEC25BB00DF43F0 /* Debug */,
@@ -560,7 +576,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE8AB27E2BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "SoxTest_iOS" */ = {
+		CE8AB27E2BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "AudioEngineTest_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE8AB27F2BEC25BB00DF43F0 /* Debug */,
@@ -569,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE8AB2812BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "SoxTest_iOSTests" */ = {
+		CE8AB2812BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "AudioEngineTest_iOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE8AB2822BEC25BB00DF43F0 /* Debug */,
@@ -578,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CE8AB2842BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "SoxTest_iOSUITests" */ = {
+		CE8AB2842BEC25BB00DF43F0 /* Build configuration list for PBXNativeTarget "AudioEngineTest_iOSUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CE8AB2852BEC25BB00DF43F0 /* Debug */,
